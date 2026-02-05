@@ -52,17 +52,13 @@ header nav a:hover {
 .hero h2 {
   font-size: 36px;
   margin-bottom: 15px;
+  color: #0f2a44;
 }
 
 .hero p {
   font-size: 18px;
   line-height: 1.5;
-}
-
-/* Hero section text on overview/about page */
-.hero h2,
-.hero p {
-  color: #0f2a44; /* navy color for readability */
+  color: #0f2a44;
 }
 
 .button {
