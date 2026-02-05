@@ -35,34 +35,33 @@ header nav a:hover {
 }
 
 .hero {
-  color: white;
-  padding: 120px 20px; /* original tall padding */
-  text-align: center;
   position: relative;
-  min-height: 500px; /* ensures the hero has a good initial height */
-  background-size: cover;
-  background-position: center;
+  text-align: center;
+  background-size: cover;       /* ensures the image fills width */
+  background-position: center;  /* keeps it centered */
+  min-height: 500px;            /* sets original height */
+  padding: 120px 20px;          /* vertical space for content */
 }
 
 .hero-content {
   display: inline-block;
   max-width: 800px;
-  padding: 40px; /* keeps content proportional inside the box */
+  padding: 40px;                          /* size of overlay box */
   border-radius: 8px;
-  background-color: rgba(0,0,0,0.5); /* semi-transparent overlay */
-  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);      /* semi-transparent black overlay */
+  color: white;                            /* text back to white */
   text-align: center;
+  margin: 0 auto;
+}
 
 .hero h2 {
   font-size: 36px;
   margin-bottom: 15px;
-  color: #0f2a44;
 }
 
 .hero p {
   font-size: 18px;
   line-height: 1.5;
-  color: #0f2a44;
 }
 
 .button {
