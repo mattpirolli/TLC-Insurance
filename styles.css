@@ -34,19 +34,23 @@ header nav a:hover {
   color: #ffd700; /* subtle hover effect */
 }
 
+/* Offerings page hero section */
 .hero {
-  background: #e5eef7;
-  padding: 70px 30px;
+  background-color: #e5eef7;
+  padding: 48px 20px; /* reduced from ~80px to 48px (~40% smaller) */
   text-align: center;
 }
 
 .hero h2 {
-  font-size: 36px;
-  margin-bottom: 10px;
+  font-size: 28px; /* reduced from 36px */
+  margin-bottom: 8px;
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 16px; /* reduced from 18px */
+  color: #1f2937;
+  margin: 0 auto;
+  max-width: 600px; /* keep text narrow and readable */
 }
 
 .hero-image {
