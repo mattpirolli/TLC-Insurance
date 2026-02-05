@@ -62,6 +62,11 @@ header nav a:hover {
   color: white;
 }
 
+/* Overview page hero heading */
+.hero-overview h2 {
+  color: #0f2a44 !important;  /* navy color, overrides other styles */
+}
+
 .hero p {
   font-size: 18px;
   line-height: 1.5;
@@ -118,25 +123,45 @@ header nav a:hover {
   margin-top: 20px;
 }
 
-/* Hero / Intro section for Offerings page */
-.hero-offerings {
+/* Hero / Intro section for Offerings and Overview page */
+.hero-offerings,
+.hero-overview {
   text-align: center;
-  padding: 80px 20px; /* restores original height */
-  background-color: #e5eef7;
+  background-color: #e5eef7;      /* light professional background */
+  padding: 60px 20px;             /* shorter vertical padding */
 }
 
-.hero-offerings h2 {
-  font-size: 36px; /* original large heading */
-  margin-bottom: 15px;
-  color: #0f2a44;
+.hero-offerings h2,
+.hero-overview h2 {
+  font-size: 32px;                /* slightly smaller heading */
+  margin-bottom: 12px;
+  color: #0f2a44;                 /* navy text */
 }
 
-.hero-offerings p {
-  font-size: 18px; /* original paragraph size */
+.hero-offerings p,
+.hero-overview p {
+  font-size: 16px;
   max-width: 700px;
-  margin: 0 auto; /* center paragraph */
+  margin: 0 auto;
   line-height: 1.5;
-  color: #0f2a44;
+  color: #1f2937;                 /* dark gray for readability */
+}
+
+@media (max-width: 768px) {
+  .hero-offerings,
+  .hero-overview {
+    padding: 40px 15px;           /* reduce padding on mobile */
+  }
+
+  .hero-offerings h2,
+  .hero-overview h2 {
+    font-size: 28px;              /* smaller headings on mobile */
+  }
+
+  .hero-offerings p,
+  .hero-overview p {
+    font-size: 15px;              /* smaller paragraph on mobile */
+  }
 }
 
 .section {
