@@ -34,6 +34,32 @@ header nav a:hover {
   color: #ffd700; /* subtle hover effect */
 }
 
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block !important; /* Forces the hamburger to show */
+  }
+
+  header nav {
+    display: none !important; /* Forces the links to hide by default */
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+
+  /* When the 'active' class is added via JS, show the menu */
+  header nav.active {
+    display: flex !important;
+  }
+
+  header nav a {
+    margin-left: 0 !important; /* Removes the desktop spacing */
+    margin-bottom: 15px;
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
 .hero {
   position: relative;
   text-align: center;
