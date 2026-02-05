@@ -5,6 +5,11 @@ body {
   line-height: 1.6;
 }
 
+/* Hide the hamburger button on laptops/desktops */
+.menu-toggle {
+  display: none; 
+}
+
 header {
   display: flex;
   justify-content: space-between;
