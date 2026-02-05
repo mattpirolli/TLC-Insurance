@@ -126,15 +126,25 @@ header nav a:hover {
 .hero-offerings,
 .hero-overview {
   text-align: center;
-  background-color: #e5eef7;      /* light professional background */
-  padding: 40px 20px;             /* shorter vertical padding */
+  background-color: #f5f5f5 !important; /* Light Gray */
+  background-image: none !important;    /* Removes any background images */
+  padding: 40px 20px;                  /* Shorter vertical padding */
+  min-height: auto !important;         /* Overrides the 300px default */
+}
+
+/* Ensure the content box inside these heroes is transparent with navy text */
+.hero-offerings .hero-content,
+.hero-overview .hero-content {
+  background-color: transparent !important;
+  color: #0f2a44 !important;           /* Navy text */
+  padding: 0;
 }
 
 .hero-offerings h2,
 .hero-overview h2 {
-  font-size: 32px;                /* slightly smaller heading */
+  font-size: 32px;
   margin-bottom: 12px;
-  color: #0f2a44;                 /* navy text */
+  color: #0f2a44 !important;           /* Forced Navy heading */
 }
 
 .hero-offerings p,
@@ -143,7 +153,7 @@ header nav a:hover {
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.5;
-  color: #1f2937;                 /* dark gray for readability */
+  color: #1f2937 !important;           /* Dark gray text */
 }
 
 @media (max-width: 768px) {
