@@ -40,7 +40,7 @@ header nav a:hover {
   background-size: cover;         
   background-position: center;    
   background-repeat: no-repeat;   
-  min-height: 450px;             /* default for desktop */
+  min-height: 300px;             /* default for desktop */
   padding: 100px 20px;           /* default vertical padding */
 }
 
