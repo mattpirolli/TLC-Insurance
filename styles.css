@@ -37,20 +37,20 @@ header nav a:hover {
 .hero {
   position: relative;
   text-align: center;
-  background-size: cover;          /* makes image cover the hero area */
-  background-position: center;     /* centers the image */
-  background-repeat: no-repeat;    /* prevents the image from repeating */
-  min-height: 500px;               /* original height */
-  padding: 120px 20px;             /* vertical space for hero content */
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;   
+  min-height: 400px;              /* reduced from 500px to 400px */
+  padding: 80px 20px;             /* reduced vertical padding from 120px */
 }
 
 .hero-content {
   display: inline-block;
   max-width: 800px;
-  padding: 40px;                   /* size of the overlay box */
+  padding: 30px;                  /* slightly smaller box padding */
   border-radius: 8px;
-  background-color: rgba(0,0,0,0.5); /* semi-transparent overlay */
-  color: white;                     /* text color white */
+  background-color: rgba(0,0,0,0.5); 
+  color: white;                     
   text-align: center;
   margin: 0 auto;
 }
@@ -58,13 +58,13 @@ header nav a:hover {
 .hero h2 {
   font-size: 36px;
   margin-bottom: 15px;
-  color: white;                     /* ensures heading is white */
+  color: white;
 }
 
 .hero p {
   font-size: 18px;
   line-height: 1.5;
-  color: white;                     /* ensures paragraph text is white */
+  color: white;
 }
 
 .button {
