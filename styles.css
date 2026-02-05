@@ -128,7 +128,7 @@ header nav a:hover {
 .hero-overview {
   text-align: center;
   background-color: #e5eef7;      /* light professional background */
-  padding: 60px 20px;             /* shorter vertical padding */
+  padding: 40px 20px;             /* shorter vertical padding */
 }
 
 .hero-offerings h2,
