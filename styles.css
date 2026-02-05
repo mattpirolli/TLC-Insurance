@@ -142,15 +142,21 @@ form button {
 
 .offerings-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns on desktop */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
   gap: 25px;
   margin-top: 30px;
 }
 
 /* Mobile responsiveness */
+@media (max-width: 1024px) {
+  .offerings-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
+}
+
 @media (max-width: 768px) {
   .offerings-grid {
-    grid-template-columns: 1fr; /* stack single column on smaller screens */
+    grid-template-columns: 1fr; /* 1 column on mobile */
   }
 }
 
