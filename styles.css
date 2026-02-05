@@ -60,6 +60,33 @@ header nav a:hover {
   margin: 20px 0;
 }
 
+/* Compact hero for offerings page */
+.hero-offerings {
+  padding: 40px 20px; /* smaller vertical space */
+  text-align: center;
+  background-size: cover; /* if using an image instead of color */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-offerings .hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-offerings h2 {
+  font-size: 28px; /* smaller heading */
+  margin-bottom: 10px;
+}
+
+.hero-offerings p {
+  font-size: 16px;
+  color: #1f2937;
+  margin: 0;
+}
+
+
+
 .section {
   max-width: 1000px;
   margin: auto;
