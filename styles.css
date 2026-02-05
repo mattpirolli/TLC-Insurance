@@ -69,31 +69,27 @@ header nav a:hover {
   margin-top: 20px;
 }
 
-
-/* Compact hero for offerings page */
+/* Hero / Intro section for Offerings page */
 .hero-offerings {
-  padding: 40px 20px; /* smaller vertical space */
   text-align: center;
-  background-size: cover; /* if using an image instead of color */
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.hero-offerings .hero-content {
-  max-width: 600px;
-  margin: 0 auto;
+  padding: 80px 20px; /* restores original height */
+  background-color: #e5eef7;
 }
 
 .hero-offerings h2 {
-  font-size: 28px; /* smaller heading */
-  margin-bottom: 10px;
+  font-size: 36px; /* original large heading */
+  margin-bottom: 15px;
+  color: #0f2a44;
 }
 
 .hero-offerings p {
-  font-size: 16px;
+  font-size: 18px; /* original paragraph size */
+  max-width: 700px;
+  margin: 0 auto; /* center paragraph */
+  line-height: 1.5;
   color: #1f2937;
-  margin: 0;
 }
+
 
 
 
