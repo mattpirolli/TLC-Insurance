@@ -64,13 +64,12 @@ header nav a:hover {
 
 /* Overview page hero heading */
 .hero-overview h2 {
-  color: #0f2a44 !important;  /* navy color, overrides other styles */
+  color: #0f2a44 !important;  /* navy color, overrides any previous white */
 }
 
-.hero p {
-  font-size: 18px;
-  line-height: 1.5;
-  color: white;
+/* Optional: paragraph text under heading */
+.hero-overview p {
+  color: #1f2937;  /* dark gray */
 }
 
 /* Tablet screens */
