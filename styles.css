@@ -1,1 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+header {
+  background: #0f2a44;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 22px;
+}
+
+nav a {
+  color: #ffffff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: #e5eef7;
+  padding: 70px 30px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 30px;
+}
+
+.button {
+  display: inline-block;
+  background: #0f2a44;
+  color: #ffffff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+footer {
+  background: #f3f4f6;
+  padding: 20px 30px;
+  font-size: 14px;
+  text-align: center;
+  color: #4b5563;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+form button {
+  background: #0f2a44;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
