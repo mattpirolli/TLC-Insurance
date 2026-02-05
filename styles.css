@@ -36,18 +36,22 @@ header nav a:hover {
 
 .hero {
   color: white;
-  padding: 800px 20px; /* taller padding restores initial height */
+  padding: 120px 20px; /* original tall padding */
   text-align: center;
   position: relative;
+  min-height: 500px; /* ensures the hero has a good initial height */
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-content {
   display: inline-block;
   max-width: 800px;
-  padding: 40px;
+  padding: 40px; /* keeps content proportional inside the box */
   border-radius: 8px;
-  background-color: rgba(0,0,0,0.5); /* semi-transparent overlay for readability */
-}
+  background-color: rgba(0,0,0,0.5); /* semi-transparent overlay */
+  margin: 0 auto;
+  text-align: center;
 
 .hero h2 {
   font-size: 36px;
