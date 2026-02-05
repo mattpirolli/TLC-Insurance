@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TLC Insurance | Protection You Can Trust</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>TLC Insurance</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="overview.html">Company Overview</a>
+    <a href="offerings.html">Insurance Offerings</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Insurance With a Personal Touch</h2>
+  <p>Helping individuals and businesses protect what matters most.</p>
+  <a class="button" href="contact.html">Submit an Inquiry</a>
+</div>
+
+<div class="section">
+  <h3>Trusted Insurance Guidance</h3>
+  <p>
+    TLC Insurance provides personalized insurance solutions designed to
+    protect your family, your assets, and your future. We focus on clarity,
+    service, and long-term relationships.
+  </p>
+</div>
+
+<footer>
+  <p>Coverage cannot be bound via this website.</p>
+</footer>
+
+</body>
+</html>
