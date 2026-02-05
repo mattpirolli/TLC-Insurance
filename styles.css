@@ -59,6 +59,12 @@ header nav a:hover {
   line-height: 1.5;
 }
 
+/* Hero section text on overview/about page */
+.hero h2,
+.hero p {
+  color: #0f2a44; /* navy color for readability */
+}
+
 .button {
   display: inline-block;
   background: #0f2a44;
