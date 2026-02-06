@@ -285,4 +285,14 @@ form button {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
+/* Mobile Only: Hide Header Navigation */
+@media (max-width: 768px) {
+  header nav {
+    display: none !important; /* Removes the links from the top on mobile */
+  }
 
+  header {
+    justify-content: center; /* Centers your Logo/Agency name on mobile */
+    text-align: center;
+  }
+}
