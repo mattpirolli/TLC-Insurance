@@ -191,10 +191,35 @@ header nav a:hover {
 
 footer {
   background: #f3f4f6;
-  padding: 20px 30px;
+  padding: 40px 30px;
   font-size: 14px;
   text-align: center;
   color: #4b5563;
+}
+
+/* The spacer div creates exactly one "empty line" of height */
+.footer-spacer {
+  height: 24px; 
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Increased space between menu items */
+  flex-wrap: wrap; /* Ensures it stays clean on mobile */
+}
+
+.footer-nav a {
+  color: #0f2a44;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-nav a:hover {
+  color: #ffd700; /* Subtle gold hover to match your header */
 }
 
 form input,
