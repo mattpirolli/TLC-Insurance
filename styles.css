@@ -27,7 +27,7 @@ header nav a {
   color: white;
   text-decoration: none;
   margin-left: 15px;
-  font-size: 14px; /* smaller nav links */
+  font-size: 18px; /* smaller nav links */
   transition: color 0.2s;
 }
 
@@ -89,7 +89,7 @@ header nav a:hover {
   }
 
   .hero p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -109,7 +109,7 @@ header nav a:hover {
   }
 
   .hero p {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
@@ -170,7 +170,7 @@ header nav a:hover {
 
   .hero-offerings p,
   .hero-overview p {
-    font-size: 15px;              /* smaller paragraph on mobile */
+    font-size: 18px;              /* smaller paragraph on mobile */
   }
 }
 
@@ -193,7 +193,7 @@ header nav a:hover {
 footer {
   background: #f3f4f6;
   padding: 40px 30px;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   color: #4b5563;
 }
@@ -215,7 +215,7 @@ footer {
   color: #0f2a44;
   text-decoration: none;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   transition: color 0.2s;
 }
 
@@ -277,7 +277,7 @@ form button {
 
 .offering-card p {
   color: #4b5563;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -298,25 +298,3 @@ form button {
   }
 }
 
-/* Only applies to screen widths of 768px or smaller (Mobile) */
-@media (max-width: 768px) {
-  
-  /* Targets the content area specifically on the contact page */
-  .section h2 {
-    font-size: 32px; /* Makes "Contact Us" title larger */
-    margin-bottom: 20px;
-  }
-
-  .section p {
-    font-size: 20px; /* Increases the size of the labels and addresses */
-    line-height: 1.8; /* Adds extra space between lines so it's not cramped */
-    margin-bottom: 25px; /* Adds more space between each contact block */
-  }
-
-  .section p a {
-    font-size: 22px; /* Makes phone numbers and emails extra large and tappable */
-    font-weight: bold;
-    display: inline-block; /* Helps with spacing the links */
-    padding: 5px 0;
-  }
-}
