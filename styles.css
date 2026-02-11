@@ -298,3 +298,26 @@ form button {
     text-align: center;
   }
 }
+
+/* This targets mobile devices only */
+@media (max-width: 768px) {
+  
+  /* Makes the paragraph text (labels and address) larger */
+  .section p {
+    font-size: 20px; 
+    line-height: 1.8; /* Ensures lines don't touch each other */
+    margin-bottom: 30px; /* Adds space between the different contact methods */
+  }
+
+  /* Makes the clickable links (phone/email) even larger for easy tapping */
+  .section p a {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline; /* Makes it obvious they are clickable */
+  }
+
+  /* Specifically makes the "Contact Us" header bigger too */
+  .section h2 {
+    font-size: 32px;
+  }
+}
