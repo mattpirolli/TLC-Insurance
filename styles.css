@@ -321,3 +321,26 @@ form button {
     font-size: 32px;
   }
 }
+
+/* Specific override for the Contact Page on Mobile */
+@media screen and (max-width: 768px) {
+  /* 1. Prevent Safari from auto-shrinking text */
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* 2. Target the contact info wrapper specifically */
+  .section p {
+    font-size: 20px !important; /* Force the size change */
+    line-height: 1.8 !important;
+  }
+
+  /* 3. Target the links (Phone & Email) so they are easy to tap */
+  .section p a {
+    font-size: 22px !important;
+    font-weight: bold;
+    color: #0f2a44; /* Ensures your navy blue is consistent */
+    display: inline-block;
+    padding: 10px 0; /* Creates a larger 'tap target' for thumbs */
+  }
+}
